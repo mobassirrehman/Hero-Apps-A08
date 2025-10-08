@@ -1,0 +1,362 @@
+[
+    {
+      "id": 1,
+      "image": "/images/forest.jpg",
+      "title": "Forest: Focus For Productivity",
+      "companyName": "Forest Team",
+      "description": "Stay focused, be present. Forest is an app helping you stay away from your smartphone and stay focused on your work.",
+      "size": 258,
+      "reviews": 45000,
+      "ratingAvg": 4.8,
+      "downloads": 9000000,
+      "ratings": [
+        { "name": "1 star", "count": 500 },
+        { "name": "2 star", "count": 800 },
+        { "name": "3 star", "count": 2000 },
+        { "name": "4 star", "count": 12000 },
+        { "name": "5 star", "count": 29700 }
+      ]
+    },
+    {
+      "id": 2,
+      "image": "/images/smplan.jpg",
+      "title": "SmPlan:ToDo List With Reminder",
+      "companyName": "SmPlan Team",
+      "description": "Simple and powerful to-do list app with reminders to help you organize your daily tasks and boost productivity.",
+      "size": 156,
+      "reviews": 32000,
+      "ratingAvg": 4.6,
+      "downloads": 8500000,
+      "ratings": [
+        { "name": "1 star", "count": 400 },
+        { "name": "2 star", "count": 600 },
+        { "name": "3 star", "count": 1800 },
+        { "name": "4 star", "count": 10000 },
+        { "name": "5 star", "count": 19200 }
+      ]
+    },
+    {
+      "id": 3,
+      "image": "/images/flip.jpg",
+      "title": "FLIP - Focus Timer For Study",
+      "companyName": "FLIP Studio",
+      "description": "A focus timer app designed to help students and professionals stay focused using the Pomodoro technique.",
+      "size": 98,
+      "reviews": 28000,
+      "ratingAvg": 4.7,
+      "downloads": 7200000,
+      "ratings": [
+        { "name": "1 star", "count": 300 },
+        { "name": "2 star", "count": 500 },
+        { "name": "3 star", "count": 1500 },
+        { "name": "4 star", "count": 9000 },
+        { "name": "5 star", "count": 16700 }
+      ]
+    },
+    {
+      "id": 4,
+      "image": "/images/pomocat.jpg",
+      "title": "Pomocat - Cute Pomodoro Timer",
+      "companyName": "Pomocat Inc",
+      "description": "A cute and kawaii Pomodoro timer app with adorable cats to help you stay focused and productive.",
+      "size": 125,
+      "reviews": 21000,
+      "ratingAvg": 4.9,
+      "downloads": 6800000,
+      "ratings": [
+        { "name": "1 star", "count": 200 },
+        { "name": "2 star", "count": 300 },
+        { "name": "3 star", "count": 1000 },
+        { "name": "4 star", "count": 7000 },
+        { "name": "5 star", "count": 12500 }
+      ]
+    },
+    {
+      "id": 5,
+      "image": "/images/timeplanner.jpg",
+      "title": "Time Planner: Schedule & Tasks",
+      "companyName": "Time Master",
+      "description": "Plan your day, schedule tasks, and manage your time efficiently with this powerful planner app.",
+      "size": 189,
+      "reviews": 35000,
+      "ratingAvg": 4.5,
+      "downloads": 9500000,
+      "ratings": [
+        { "name": "1 star", "count": 600 },
+        { "name": "2 star", "count": 900 },
+        { "name": "3 star", "count": 2500 },
+        { "name": "4 star", "count": 11000 },
+        { "name": "5 star", "count": 20000 }
+      ]
+    },
+    {
+      "id": 6,
+      "image": "/images/morning.jpg",
+      "title": "Morning Habits - Daily Routine",
+      "companyName": "Habit Builder",
+      "description": "Build better morning habits and create a powerful daily routine to start your day right.",
+      "size": 142,
+      "reviews": 18000,
+      "ratingAvg": 4.6,
+      "downloads": 5400000,
+      "ratings": [
+        { "name": "1 star", "count": 250 },
+        { "name": "2 star", "count": 400 },
+        { "name": "3 star", "count": 1200 },
+        { "name": "4 star", "count": 6000 },
+        { "name": "5 star", "count": 10150 }
+      ]
+    },
+    {
+      "id": 7,
+      "image": "/images/focusplant.jpg",
+      "title": "Focus Plant: Pomodoro Forest",
+      "companyName": "Focus Plant Team",
+      "description": "Stay focused and grow virtual plants while you work. A gamified focus timer app.",
+      "size": 167,
+      "reviews": 24000,
+      "ratingAvg": 4.7,
+      "downloads": 7800000,
+      "ratings": [
+        { "name": "1 star", "count": 300 },
+        { "name": "2 star", "count": 500 },
+        { "name": "3 star", "count": 1600 },
+        { "name": "4 star", "count": 8500 },
+        { "name": "5 star", "count": 13100 }
+      ]
+    },
+    {
+      "id": 8,
+      "image": "/images/alarmy.jpg",
+      "title": "Alarmy - Alarm Clock & Sleep",
+      "companyName": "Alarmy Inc",
+      "description": "The world's most annoying alarm clock! Wake up on time with creative alarm challenges.",
+      "size": 215,
+      "reviews": 52000,
+      "ratingAvg": 4.8,
+      "downloads": 12000000,
+      "ratings": [
+        { "name": "1 star", "count": 800 },
+        { "name": "2 star", "count": 1200 },
+        { "name": "3 star", "count": 3000 },
+        { "name": "4 star", "count": 15000 },
+        { "name": "5 star", "count": 32000 }
+      ]
+    },
+    {
+      "id": 9,
+      "image": "/images/habitica.jpg",
+      "title": "Habitica: Gamify Your Tasks",
+      "companyName": "HabitRPG Inc",
+      "description": "Treat your life like a game! Habitica helps you achieve your goals with RPG-style rewards.",
+      "size": 198,
+      "reviews": 41000,
+      "ratingAvg": 4.6,
+      "downloads": 10500000,
+      "ratings": [
+        { "name": "1 star", "count": 600 },
+        { "name": "2 star", "count": 1000 },
+        { "name": "3 star", "count": 2800 },
+        { "name": "4 star", "count": 13000 },
+        { "name": "5 star", "count": 23600 }
+      ]
+    },
+    {
+      "id": 10,
+      "image": "/images/notion.jpg",
+      "title": "Notion: Notes, Docs, Tasks",
+      "companyName": "Notion Labs",
+      "description": "One workspace for your notes, tasks, wikis, and databases. Your all-in-one productivity tool.",
+      "size": 312,
+      "reviews": 68000,
+      "ratingAvg": 4.7,
+      "downloads": 15000000,
+      "ratings": [
+        { "name": "1 star", "count": 1000 },
+        { "name": "2 star", "count": 1500 },
+        { "name": "3 star", "count": 4000 },
+        { "name": "4 star", "count": 20000 },
+        { "name": "5 star", "count": 41500 }
+      ]
+    },
+    {
+      "id": 11,
+      "image": "/images/todoist.jpg",
+      "title": "Todoist: To-Do List & Tasks",
+      "companyName": "Doist Inc",
+      "description": "Organize your work and life with Todoist. The world's favorite task manager and to-do list app.",
+      "size": 234,
+      "reviews": 55000,
+      "ratingAvg": 4.8,
+      "downloads": 13500000,
+      "ratings": [
+        { "name": "1 star", "count": 700 },
+        { "name": "2 star", "count": 1100 },
+        { "name": "3 star", "count": 3200 },
+        { "name": "4 star", "count": 16000 },
+        { "name": "5 star", "count": 34000 }
+      ]
+    },
+    {
+      "id": 12,
+      "image": "/images/evernote.jpg",
+      "title": "Evernote: Note Taking App",
+      "companyName": "Evernote Corporation",
+      "description": "Capture ideas, organize your work, and get things done with the ultimate note-taking app.",
+      "size": 287,
+      "reviews": 72000,
+      "ratingAvg": 4.5,
+      "downloads": 16000000,
+      "ratings": [
+        { "name": "1 star", "count": 1200 },
+        { "name": "2 star", "count": 1800 },
+        { "name": "3 star", "count": 5000 },
+        { "name": "4 star", "count": 22000 },
+        { "name": "5 star", "count": 42000 }
+      ]
+    },
+    {
+      "id": 13,
+      "image": "/images/trello.jpg",
+      "title": "Trello: Organize Anything",
+      "companyName": "Atlassian",
+      "description": "Trello helps you collaborate and organize anything with anyone. Simple, flexible, and powerful.",
+      "size": 265,
+      "reviews": 63000,
+      "ratingAvg": 4.6,
+      "downloads": 14200000,
+      "ratings": [
+        { "name": "1 star", "count": 900 },
+        { "name": "2 star", "count": 1400 },
+        { "name": "3 star", "count": 4200 },
+        { "name": "4 star", "count": 19000 },
+        { "name": "5 star", "count": 37500 }
+      ]
+    },
+    {
+      "id": 14,
+      "image": "/images/anki.jpg",
+      "title": "AnkiDroid Flashcards",
+      "companyName": "AnkiDroid Community",
+      "description": "Memorize anything with AnkiDroid! Powerful flashcard app with spaced repetition.",
+      "size": 156,
+      "reviews": 38000,
+      "ratingAvg": 4.7,
+      "downloads": 9800000,
+      "ratings": [
+        { "name": "1 star", "count": 500 },
+        { "name": "2 star", "count": 800 },
+        { "name": "3 star", "count": 2400 },
+        { "name": "4 star", "count": 12000 },
+        { "name": "5 star", "count": 22300 }
+      ]
+    },
+    {
+      "id": 15,
+      "image": "/images/ticktick.jpg",
+      "title": "TickTick: To Do List & Tasks",
+      "companyName": "TickTick Team",
+      "description": "Your all-in-one to-do list, task manager, and calendar app to get things done.",
+      "size": 178,
+      "reviews": 29000,
+      "ratingAvg": 4.8,
+      "downloads": 8200000,
+      "ratings": [
+        { "name": "1 star", "count": 350 },
+        { "name": "2 star", "count": 550 },
+        { "name": "3 star", "count": 1700 },
+        { "name": "4 star", "count": 9000 },
+        { "name": "5 star", "count": 17400 }
+      ]
+    },
+    {
+      "id": 16,
+      "image": "/images/sleeptown.jpg",
+      "title": "SleepTown - Sleep Tracker",
+      "companyName": "SleepTown Inc",
+      "description": "Build healthy sleep habits and wake up early by building your dream city while you sleep.",
+      "size": 143,
+      "reviews": 22000,
+      "ratingAvg": 4.6,
+      "downloads": 6500000,
+      "ratings": [
+        { "name": "1 star", "count": 300 },
+        { "name": "2 star", "count": 500 },
+        { "name": "3 star", "count": 1500 },
+        { "name": "4 star", "count": 7500 },
+        { "name": "5 star", "count": 12200 }
+      ]
+    },
+    {
+      "id": 17,
+      "image": "/images/myfitnesspal.jpg",
+      "title": "MyFitnessPal: Calorie Counter",
+      "companyName": "MyFitnessPal Inc",
+      "description": "Track calories, lose weight, and build healthy habits with the world's best calorie counter.",
+      "size": 298,
+      "reviews": 85000,
+      "ratingAvg": 4.5,
+      "downloads": 18000000,
+      "ratings": [
+        { "name": "1 star", "count": 1500 },
+        { "name": "2 star", "count": 2200 },
+        { "name": "3 star", "count": 6000 },
+        { "name": "4 star", "count": 25000 },
+        { "name": "5 star", "count": 50300 }
+      ]
+    },
+    {
+      "id": 18,
+      "image": "/images/headspace.jpg",
+      "title": "Headspace: Meditation & Sleep",
+      "companyName": "Headspace Inc",
+      "description": "Find peace in a hectic world with guided meditations, sleep sounds, and mindfulness exercises.",
+      "size": 245,
+      "reviews": 76000,
+      "ratingAvg": 4.8,
+      "downloads": 17500000,
+      "ratings": [
+        { "name": "1 star", "count": 1000 },
+        { "name": "2 star", "count": 1600 },
+        { "name": "3 star", "count": 4500 },
+        { "name": "4 star", "count": 21000 },
+        { "name": "5 star", "count": 47900 }
+      ]
+    },
+    {
+      "id": 19,
+      "image": "/images/duolingo.jpg",
+      "title": "Duolingo: Language Learning",
+      "companyName": "Duolingo Inc",
+      "description": "Learn Spanish, French, German, and more languages for free with fun, bite-sized lessons.",
+      "size": 312,
+      "reviews": 95000,
+      "ratingAvg": 4.7,
+      "downloads": 20000000,
+      "ratings": [
+        { "name": "1 star", "count": 1800 },
+        { "name": "2 star", "count": 2500 },
+        { "name": "3 star", "count": 7000 },
+        { "name": "4 star", "count": 28000 },
+        { "name": "5 star", "count": 55700 }
+      ]
+    },
+    {
+      "id": 20,
+      "image": "/images/calm.jpg",
+      "title": "Calm: Sleep & Meditation",
+      "companyName": "Calm.com Inc",
+      "description": "Sleep better, reduce stress, and live a happier life with Calm, the #1 app for meditation.",
+      "size": 267,
+      "reviews": 88000,
+      "ratingAvg": 4.8,
+      "downloads": 19000000,
+      "ratings": [
+        { "name": "1 star", "count": 1200 },
+        { "name": "2 star", "count": 1800 },
+        { "name": "3 star", "count": 5500 },
+        { "name": "4 star", "count": 26000 },
+        { "name": "5 star", "count": 53500 }
+      ]
+    }
+  ]

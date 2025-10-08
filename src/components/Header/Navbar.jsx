@@ -45,14 +45,7 @@ const Navbar = () => {
           </ul>
         </div>
         <Link to="/" className="btn btn-ghost text-xl font-bold text-primary">
-          <svg
-            className="w-8 h-8"
-            viewBox="0 0 24 24"
-            fill="currentColor"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <img className="w-8 h-8" src={logoImg} alt="" />
-          </svg>
+        <img className="w-8 h-8" src={logoImg} alt="" />
           HERO.IO
         </Link>
       </div>
