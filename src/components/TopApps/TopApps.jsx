@@ -8,7 +8,7 @@ const TopApps = () => {
 
     useEffect(() => {
          setLoading(true);
-          fetch('/appData.json').then(res=> res.json()).then(data=> {
+          fetch('/appsData.json').then(res=> res.json()).then(data=> {
             const topEightApps = data.slice(0,8);
             setApps(topEightApps);
             setLoading(false);
@@ -21,26 +21,26 @@ const TopApps = () => {
 
     if (loading){
         return(
-            <div>
+            <div className='flex justify-center items-center py-15'>
                 <span className="loading loading-ring loading-xl"></span>
             </div>
         )
     }
     return (
-       <section>
-        <div>
-            <div>
-                <h2>Trending Apps</h2>
-                <p>Explore All Trending Apps on the Market developed by us</p>
+       <section className='bg-base-300 py-10 md:py-14'>
+        <div className='max-w-11/13 mx-auto px-4'>
+            <div className='text-center mb-8'>
+                <h2 className='text-3xl md:text-4xl font-bold mb-4'>Trending Apps</h2>
+                <p className='text-gray-500'>Explore All Trending Apps on the Market developed by us</p>
             </div>
-            <div>
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6'>
                 {
                     apps.map(app => (<AppCard key={app.id} app={app}></AppCard>))
                 }
             </div>
-            <div>
+            <div className='text-center mt-8'>
                 <Link to='/apps'>
-                <button>Show All</button>
+                <button className='btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] px-8 text-white'>Show All</button>
                 </Link>
             </div>
         </div>
