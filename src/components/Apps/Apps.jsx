@@ -70,11 +70,11 @@ const Apps = () => {
                        <div className='flex justify-center mb-8'>
                        <img src={NoApp} alt="" className='' />
                        </div>
-                        <h3 className='text-2xl font-bold text-gray-600 mb-2'>OPPS!! APP NOT FOUND</h3>
+                        <h3 className='text-2xl md:text-3xl font-bold text-gray-600 mb-2'>OPPS!! APP NOT FOUND</h3>
                         <p className='text-gray-500'>The App you are requesting is not found on our system. please try another apps</p>
                     </div>
                 )}
-                  <div className='text-center'>
+                  <div className='text-center pt-8'>
                     <Link to='/'>
                         <button className='btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] px-8 text-white'>
                             Go Back!
