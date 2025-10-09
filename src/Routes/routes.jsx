@@ -3,6 +3,8 @@ import Root from "../pages/Root/Root";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Home from "../components/Home/Home";
 import Apps from "../components/Apps/Apps";
+import AppDetails from "../components/AppDetails/AppDetails";
+
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -18,7 +20,10 @@ export const router = createBrowserRouter([
         path: "/apps",
         Component:Apps
       },
-    
+      {
+        path: "/app/:id",
+        Component: AppDetails
+      },
      
     ],
   },

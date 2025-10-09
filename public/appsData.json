@@ -6,15 +6,15 @@
     "companyName": "Forest Team",
     "description": "Stay focused, be present. Forest is an app helping you stay away from your smartphone and stay focused on your work.",
     "size": 258,
-    "reviews": 45000,
+    "reviews": "45k",
     "ratingAvg": 4.8,
     "downloads": "9M",
     "ratings": [
-      { "name": "1 star", "count": 500 },
-      { "name": "2 star", "count": 800 },
-      { "name": "3 star", "count": 2000 },
+      { "name": "5 star", "count": 29700 },
       { "name": "4 star", "count": 12000 },
-      { "name": "5 star", "count": 29700 }
+      { "name": "3 star", "count": 2000 },
+      { "name": "2 star", "count": 800 },
+      { "name": "1 star", "count": 500 }
     ]
   },
   {
@@ -24,15 +24,15 @@
     "companyName": "SmPlan Team",
     "description": "Simple and powerful to-do list app with reminders to help you organize your daily tasks and boost productivity.",
     "size": 156,
-    "reviews": 32000,
+    "reviews": "32k",
     "ratingAvg": 4.6,
     "downloads": "8.5M",
     "ratings": [
-      { "name": "1 star", "count": 400 },
-      { "name": "2 star", "count": 600 },
-      { "name": "3 star", "count": 1800 },
+      { "name": "5 star", "count": 19200 },
       { "name": "4 star", "count": 10000 },
-      { "name": "5 star", "count": 19200 }
+      { "name": "3 star", "count": 1800 },
+      { "name": "2 star", "count": 600 },
+      { "name": "1 star", "count": 400 }
     ]
   },
   {
@@ -42,15 +42,15 @@
     "companyName": "FLIP Studio",
     "description": "A focus timer app designed to help students and professionals stay focused using the Pomodoro technique.",
     "size": 98,
-    "reviews": 28000,
+    "reviews": "28k",
     "ratingAvg": 4.7,
     "downloads": "7.2M",
     "ratings": [
-      { "name": "1 star", "count": 300 },
-      { "name": "2 star", "count": 500 },
-      { "name": "3 star", "count": 1500 },
+      { "name": "5 star", "count": 16700 },
       { "name": "4 star", "count": 9000 },
-      { "name": "5 star", "count": 16700 }
+      { "name": "3 star", "count": 1500 },
+      { "name": "2 star", "count": 500 },
+      { "name": "1 star", "count": 300 }
     ]
   },
   {
@@ -60,15 +60,15 @@
     "companyName": "Pomocat Inc",
     "description": "A cute and kawaii Pomodoro timer app with adorable cats to help you stay focused and productive.",
     "size": 125,
-    "reviews": 21000,
+    "reviews": "21k",
     "ratingAvg": 4.9,
     "downloads": "6.8M",
     "ratings": [
-      { "name": "1 star", "count": 200 },
-      { "name": "2 star", "count": 300 },
-      { "name": "3 star", "count": 1000 },
+      { "name": "5 star", "count": 12500 },
       { "name": "4 star", "count": 7000 },
-      { "name": "5 star", "count": 12500 }
+      { "name": "3 star", "count": 1000 },
+      { "name": "2 star", "count": 300 },
+      { "name": "1 star", "count": 200 }
     ]
   },
   {
@@ -78,15 +78,15 @@
     "companyName": "Time Master",
     "description": "Plan your day, schedule tasks, and manage your time efficiently with this powerful planner app.",
     "size": 189,
-    "reviews": 35000,
+    "reviews": "35k",
     "ratingAvg": 4.5,
     "downloads": "9.5M",
     "ratings": [
-      { "name": "1 star", "count": 600 },
-      { "name": "2 star", "count": 900 },
-      { "name": "3 star", "count": 2500 },
+      { "name": "5 star", "count": 20000 },
       { "name": "4 star", "count": 11000 },
-      { "name": "5 star", "count": 20000 }
+      { "name": "3 star", "count": 2500 },
+      { "name": "2 star", "count": 900 },
+      { "name": "1 star", "count": 600 }
     ]
   },
   {
@@ -96,15 +96,15 @@
     "companyName": "Habit Builder",
     "description": "Build better morning habits and create a powerful daily routine to start your day right.",
     "size": 142,
-    "reviews": 18000,
+    "reviews": "18k",
     "ratingAvg": 4.6,
     "downloads": "5.4M",
     "ratings": [
-      { "name": "1 star", "count": 250 },
-      { "name": "2 star", "count": 400 },
-      { "name": "3 star", "count": 1200 },
+      { "name": "5 star", "count": 10150 },
       { "name": "4 star", "count": 6000 },
-      { "name": "5 star", "count": 10150 }
+      { "name": "3 star", "count": 1200 },
+      { "name": "2 star", "count": 400 },
+      { "name": "1 star", "count": 250 }
     ]
   },
   {
@@ -114,15 +114,15 @@
     "companyName": "Focus Plant Team",
     "description": "Stay focused and grow virtual plants while you work. A gamified focus timer app.",
     "size": 167,
-    "reviews": 24000,
+    "reviews": "24k",
     "ratingAvg": 4.7,
     "downloads": "7.8M",
     "ratings": [
-      { "name": "1 star", "count": 300 },
-      { "name": "2 star", "count": 500 },
-      { "name": "3 star", "count": 1600 },
+      { "name": "5 star", "count": 13100 },
       { "name": "4 star", "count": 8500 },
-      { "name": "5 star", "count": 13100 }
+      { "name": "3 star", "count": 1600 },
+      { "name": "2 star", "count": 500 },
+      { "name": "1 star", "count": 300 }
     ]
   },
   {
@@ -132,15 +132,15 @@
     "companyName": "Alarmy Inc",
     "description": "The world's most annoying alarm clock! Wake up on time with creative alarm challenges.",
     "size": 215,
-    "reviews": 52000,
+    "reviews": "52k",
     "ratingAvg": 4.8,
     "downloads": "12M",
     "ratings": [
-      { "name": "1 star", "count": 800 },
-      { "name": "2 star", "count": 1200 },
-      { "name": "3 star", "count": 3000 },
+      { "name": "5 star", "count": 32000 },
       { "name": "4 star", "count": 15000 },
-      { "name": "5 star", "count": 32000 }
+      { "name": "3 star", "count": 3000 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "1 star", "count": 800 }
     ]
   },
   {
@@ -150,15 +150,15 @@
     "companyName": "HabitRPG Inc",
     "description": "Treat your life like a game! Habitica helps you achieve your goals with RPG-style rewards.",
     "size": 198,
-    "reviews": 41000,
+    "reviews": "41k",
     "ratingAvg": 4.6,
     "downloads": "10.5M",
     "ratings": [
-      { "name": "1 star", "count": 600 },
-      { "name": "2 star", "count": 1000 },
-      { "name": "3 star", "count": 2800 },
+      { "name": "5 star", "count": 23600 },
       { "name": "4 star", "count": 13000 },
-      { "name": "5 star", "count": 23600 }
+      { "name": "3 star", "count": 2800 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "1 star", "count": 600 }
     ]
   },
   {
@@ -168,15 +168,15 @@
     "companyName": "Notion Labs",
     "description": "One workspace for your notes, tasks, wikis, and databases. Your all-in-one productivity tool.",
     "size": 312,
-    "reviews": 68000,
+    "reviews": "68k",
     "ratingAvg": 4.7,
     "downloads": "15M",
     "ratings": [
-      { "name": "1 star", "count": 1000 },
-      { "name": "2 star", "count": 1500 },
-      { "name": "3 star", "count": 4000 },
+      { "name": "5 star", "count": 41500 },
       { "name": "4 star", "count": 20000 },
-      { "name": "5 star", "count": 41500 }
+      { "name": "3 star", "count": 4000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "1 star", "count": 1000 }
     ]
   },
   {
@@ -186,15 +186,15 @@
     "companyName": "Doist Inc",
     "description": "Organize your work and life with Todoist. The world's favorite task manager and to-do list app.",
     "size": 234,
-    "reviews": 55000,
+    "reviews": "55k",
     "ratingAvg": 4.8,
     "downloads": "13.5M",
     "ratings": [
-      { "name": "1 star", "count": 700 },
-      { "name": "2 star", "count": 1100 },
-      { "name": "3 star", "count": 3200 },
+      { "name": "5 star", "count": 34000 },
       { "name": "4 star", "count": 16000 },
-      { "name": "5 star", "count": 34000 }
+      { "name": "3 star", "count": 3200 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "1 star", "count": 700 }
     ]
   },
   {
@@ -204,15 +204,15 @@
     "companyName": "Evernote Corporation",
     "description": "Capture ideas, organize your work, and get things done with the ultimate note-taking app.",
     "size": 287,
-    "reviews": 72000,
+    "reviews": "72k",
     "ratingAvg": 4.5,
     "downloads": "16M",
     "ratings": [
-      { "name": "1 star", "count": 1200 },
-      { "name": "2 star", "count": 1800 },
-      { "name": "3 star", "count": 5000 },
+      { "name": "5 star", "count": 42000 },
       { "name": "4 star", "count": 22000 },
-      { "name": "5 star", "count": 42000 }
+      { "name": "3 star", "count": 5000 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "1 star", "count": 1200 }
     ]
   },
   {
@@ -222,15 +222,15 @@
     "companyName": "Atlassian",
     "description": "Trello helps you collaborate and organize anything with anyone. Simple, flexible, and powerful.",
     "size": 265,
-    "reviews": 63000,
+    "reviews": "63k",
     "ratingAvg": 4.6,
     "downloads": "14.2M",
     "ratings": [
-      { "name": "1 star", "count": 900 },
-      { "name": "2 star", "count": 1400 },
-      { "name": "3 star", "count": 4200 },
+      { "name": "5 star", "count": 37500 },
       { "name": "4 star", "count": 19000 },
-      { "name": "5 star", "count": 37500 }
+      { "name": "3 star", "count": 4200 },
+      { "name": "2 star", "count": 1400 },
+      { "name": "1 star", "count": 900 }
     ]
   },
   {
@@ -240,15 +240,15 @@
     "companyName": "AnkiDroid Community",
     "description": "Memorize anything with AnkiDroid! Powerful flashcard app with spaced repetition.",
     "size": 156,
-    "reviews": 38000,
+    "reviews": "38k",
     "ratingAvg": 4.7,
     "downloads": "9.8M",
     "ratings": [
-      { "name": "1 star", "count": 500 },
-      { "name": "2 star", "count": 800 },
-      { "name": "3 star", "count": 2400 },
+      { "name": "5 star", "count": 22300 },
       { "name": "4 star", "count": 12000 },
-      { "name": "5 star", "count": 22300 }
+      { "name": "3 star", "count": 2400 },
+      { "name": "2 star", "count": 800 },
+      { "name": "1 star", "count": 500 }
     ]
   },
   {
@@ -258,15 +258,15 @@
     "companyName": "TickTick Team",
     "description": "Your all-in-one to-do list, task manager, and calendar app to get things done.",
     "size": 178,
-    "reviews": 29000,
+    "reviews": "29k",
     "ratingAvg": 4.8,
     "downloads": "8.2M",
     "ratings": [
-      { "name": "1 star", "count": 350 },
-      { "name": "2 star", "count": 550 },
-      { "name": "3 star", "count": 1700 },
+      { "name": "5 star", "count": 17400 },
       { "name": "4 star", "count": 9000 },
-      { "name": "5 star", "count": 17400 }
+      { "name": "3 star", "count": 1700 },
+      { "name": "2 star", "count": 550 },
+      { "name": "1 star", "count": 350 }
     ]
   },
   {
@@ -276,15 +276,15 @@
     "companyName": "SleepTown Inc",
     "description": "Build healthy sleep habits and wake up early by building your dream city while you sleep.",
     "size": 143,
-    "reviews": 22000,
+    "reviews": "22k",
     "ratingAvg": 4.6,
     "downloads": "6.5M",
     "ratings": [
-      { "name": "1 star", "count": 300 },
-      { "name": "2 star", "count": 500 },
-      { "name": "3 star", "count": 1500 },
+      { "name": "5 star", "count": 12200 },
       { "name": "4 star", "count": 7500 },
-      { "name": "5 star", "count": 12200 }
+      { "name": "3 star", "count": 1500 },
+      { "name": "2 star", "count": 500 },
+      { "name": "1 star", "count": 300 }
     ]
   },
   {
@@ -294,15 +294,15 @@
     "companyName": "MyFitnessPal Inc",
     "description": "Track calories, lose weight, and build healthy habits with the world's best calorie counter.",
     "size": 298,
-    "reviews": 85000,
+    "reviews": "85k",
     "ratingAvg": 4.5,
     "downloads": "18M",
     "ratings": [
-      { "name": "1 star", "count": 1500 },
-      { "name": "2 star", "count": 2200 },
-      { "name": "3 star", "count": 6000 },
+      { "name": "5 star", "count": 50300 },
       { "name": "4 star", "count": 25000 },
-      { "name": "5 star", "count": 50300 }
+      { "name": "3 star", "count": 6000 },
+      { "name": "2 star", "count": 2200 },
+      { "name": "1 star", "count": 1500 }
     ]
   },
   {
@@ -312,15 +312,15 @@
     "companyName": "Headspace Inc",
     "description": "Find peace in a hectic world with guided meditations, sleep sounds, and mindfulness exercises.",
     "size": 245,
-    "reviews": 76000,
+    "reviews": "76k",
     "ratingAvg": 4.8,
     "downloads": "17.5M",
     "ratings": [
-      { "name": "1 star", "count": 1000 },
-      { "name": "2 star", "count": 1600 },
-      { "name": "3 star", "count": 4500 },
+      { "name": "5 star", "count": 47900 },
       { "name": "4 star", "count": 21000 },
-      { "name": "5 star", "count": 47900 }
+      { "name": "3 star", "count": 4500 },
+      { "name": "2 star", "count": 1600 },
+      { "name": "1 star", "count": 1000 }
     ]
   },
   {
@@ -330,15 +330,15 @@
     "companyName": "Duolingo Inc",
     "description": "Learn Spanish, French, German, and more languages for free with fun, bite-sized lessons.",
     "size": 312,
-    "reviews": 95000,
+    "reviews": "95k",
     "ratingAvg": 4.7,
     "downloads": "20M",
     "ratings": [
-      { "name": "1 star", "count": 1800 },
-      { "name": "2 star", "count": 2500 },
-      { "name": "3 star", "count": 7000 },
+      { "name": "5 star", "count": 55700 },
       { "name": "4 star", "count": 28000 },
-      { "name": "5 star", "count": 55700 }
+      { "name": "3 star", "count": 7000 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "1 star", "count": 1800 }
     ]
   },
   {
@@ -348,15 +348,15 @@
     "companyName": "Calm.com Inc",
     "description": "Sleep better, reduce stress, and live a happier life with Calm, the #1 app for meditation.",
     "size": 267,
-    "reviews": 88000,
+    "reviews": "88k",
     "ratingAvg": 4.8,
     "downloads": "19M",
     "ratings": [
-      { "name": "1 star", "count": 1200 },
-      { "name": "2 star", "count": 1800 },
-      { "name": "3 star", "count": 5500 },
+      { "name": "5 star", "count": 53500 },
       { "name": "4 star", "count": 26000 },
-      { "name": "5 star", "count": 53500 }
+      { "name": "3 star", "count": 5500 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "1 star", "count": 1200 }
     ]
   }
 ]

@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import AppCard from '../AppCard/AppCard';
 import NoApp from '../../assets/App-Error.png'
 import { Link } from 'react-router';
+import { HashLoader } from "react-spinners";
+
 
 const Apps = () => {
     const [allApps, setAllApps] = useState([]);
@@ -27,7 +29,7 @@ const Apps = () => {
     if (loading){
         return(
             <div className='flex justify-center items-center py-15'>
-                <span className="loading loading-ring loading-xl"></span>
+               <HashLoader />
             </div>
         )
     }
