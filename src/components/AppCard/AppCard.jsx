@@ -15,11 +15,11 @@ const AppCard = ({app}) => {
                 <div className='card-body p-4'>
                     <h3 className='text-md font-medium'>{title}</h3>
                     <div className='flex items-center justify-between mt-2'>
-                        <div className='flex items-center gap-1 text-green-600'>
+                        <div className='flex items-center gap-1 bg-green-100 px-2 py-1 rouded-sm text-green-600'>
                             <BiSolidDownload className='w-4 h-4' />
                             <span className='text-sm font-medium'>{downloads}</span>
                         </div>
-                        <div className='flex items-center text-orange-400 gap-1'>
+                        <div className='flex items-center text-orange-400 bg-orange-100 px-2 py-1 rounded-sm gap-1'>
                         <FaStar className='w-4 h-4' />
                             <span className='text-sm font-medium'>{ratingAvg}</span>
                         </div>

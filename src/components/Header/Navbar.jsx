@@ -62,7 +62,7 @@ const Navbar = () => {
             </svg>
            Contribute
         </a>  
-       </NavLink>  
+       </NavLink> 
       </div>
     </div>
   );

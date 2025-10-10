@@ -1,11 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router';
 import errorImg from '../../assets/error-404.png';
+import Navbar from '../../components/Header/Navbar';
+import Footer from '../../components/Footer/Footer';
 
 const ErrorPage = () => {
     return (
-          <div className='min-h-screen flex items-center justify-center bg-base-100'>
-            <div className='text-center px-4'>
+        <div>
+            <Navbar></Navbar>
+            <main className='min-h-screen flex items-center justify-center'>
+              <div className='text-center px-4'>
                 <div>
                     <img src={errorImg} alt="" />
                 </div>
@@ -23,7 +27,9 @@ const ErrorPage = () => {
                     </Link>
                 </div> 
             </div>
-         </div>
+         </main>
+         <Footer></Footer>
+       </div>
         
     );
 };
