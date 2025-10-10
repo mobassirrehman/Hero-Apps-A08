@@ -35,7 +35,7 @@ const Apps = () => {
     }
     return (
         <div className='bg-base-100 min-h-screen py-12'>
-            <div className='max-w-7xl mx-auto px-4'>
+            <div className='max-w-11/13 mx-auto px-4'>
                 <div className='text-center mb-10'>
                     <h2 className='text-3xl font-bold mb-4'>Our All Applications</h2>
                     <p className='text-gray-600'>

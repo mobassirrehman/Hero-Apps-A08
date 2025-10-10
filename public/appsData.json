@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/images/forest.jpg",
+    "image": "https://play-lh.googleusercontent.com/zWZWyf9U9eSMS5PGorSUqk3GBQVqaSvliXdF7jf5hcuJVM7MVF1C555_wVzbSX6wPw=w480-h960-rw",
     "title": "Forest: Focus For Productivity",
     "companyName": "Forest Team",
     "description": "Stay focused, be present. Forest is an app helping you stay away from your smartphone and stay focused on your work.",
@@ -17,9 +17,10 @@
       { "name": "1 star", "count": 500 }
     ]
   },
+  
   {
     "id": 2,
-    "image": "/images/smplan.jpg",
+    "image": "https://play-lh.googleusercontent.com/6yT8JfjY4ESEu69QpxHxjhyVhIoPgpbol1t4hEgfiBcGP0gy35ez0NvxyARrq5VPcGU=w480-h960-rw",
     "title": "SmPlan:ToDo List With Reminder",
     "companyName": "SmPlan Team",
     "description": "Simple and powerful to-do list app with reminders to help you organize your daily tasks and boost productivity.",
@@ -37,7 +38,7 @@
   },
   {
     "id": 3,
-    "image": "/images/flip.jpg",
+    "image": "https://play-lh.googleusercontent.com/k0p0PlV3iitTUJaBk4P2NWiMHcAKrI7gB0ap7b9sIVCcKvE9RT6MTLf1Fr5oOUMQ1nFc=w480-h960-rw",
     "title": "FLIP - Focus Timer For Study",
     "companyName": "FLIP Studio",
     "description": "A focus timer app designed to help students and professionals stay focused using the Pomodoro technique.",
@@ -55,7 +56,7 @@
   },
   {
     "id": 4,
-    "image": "/images/pomocat.jpg",
+    "image": "https://play-lh.googleusercontent.com/2-coFiL20JMqVh6mWWyn1ZpkOxn90NGYkLSvj5lxlk6yBBucC5LpcLS0G_pq3xG8owbN=w480-h960-rw",
     "title": "Pomocat - Cute Pomodoro Timer",
     "companyName": "Pomocat Inc",
     "description": "A cute and kawaii Pomodoro timer app with adorable cats to help you stay focused and productive.",
@@ -73,7 +74,7 @@
   },
   {
     "id": 5,
-    "image": "/images/timeplanner.jpg",
+    "image": "https://play-lh.googleusercontent.com/hG81wXwHp6IDKf0GL6wojORaoRV4c78wLwV8RlGhW5Ace5FvYt8jO1Y0lX4tSLbTQw=w480-h960-rw",
     "title": "Time Planner: Schedule & Tasks",
     "companyName": "Time Master",
     "description": "Plan your day, schedule tasks, and manage your time efficiently with this powerful planner app.",
@@ -91,7 +92,7 @@
   },
   {
     "id": 6,
-    "image": "/images/morning.jpg",
+    "image": "https://play-lh.googleusercontent.com/kfpAxLPDEfpr3-uMNfHy8Xf4EmQZ-GvqhnOlytzM90j-3phnjAuHVreoo_ldEA8QGA=w480-h960-rw",
     "title": "Morning Habits - Daily Routine",
     "companyName": "Habit Builder",
     "description": "Build better morning habits and create a powerful daily routine to start your day right.",
@@ -109,7 +110,7 @@
   },
   {
     "id": 7,
-    "image": "/images/focusplant.jpg",
+    "image": "https://play-lh.googleusercontent.com/Dp9w3L54TBZgWPB1auw22DQ7Dgzj-6iceKy_A2KgSqpbEoFKIo__WCqLxHyfDl2pZ0s=w480-h960-rw",
     "title": "Focus Plant: Pomodoro Forest",
     "companyName": "Focus Plant Team",
     "description": "Stay focused and grow virtual plants while you work. A gamified focus timer app.",
@@ -127,7 +128,7 @@
   },
   {
     "id": 8,
-    "image": "/images/alarmy.jpg",
+    "image": "https://play-lh.googleusercontent.com/gXJLTDIvxXTK6uKl2e3Od_zmrlEul1CbkgxWxjbGeDzLl4EMFsdfER2VEgqAue2v1TE=w480-h960-rw",
     "title": "Alarmy - Alarm Clock & Sleep",
     "companyName": "Alarmy Inc",
     "description": "The world's most annoying alarm clock! Wake up on time with creative alarm challenges.",
@@ -145,7 +146,7 @@
   },
   {
     "id": 9,
-    "image": "/images/habitica.jpg",
+    "image": "https://play-lh.googleusercontent.com/js9LcEDMPaWBLW-kX6zrCxVwKDKTsvQRgIubQnZB0wQs4NfNcxPkNlXQOpIDXKX0y5Y=w480-h960-rw",
     "title": "Habitica: Gamify Your Tasks",
     "companyName": "HabitRPG Inc",
     "description": "Treat your life like a game! Habitica helps you achieve your goals with RPG-style rewards.",
@@ -163,7 +164,7 @@
   },
   {
     "id": 10,
-    "image": "/images/notion.jpg",
+    "image": "https://play-lh.googleusercontent.com/vaxxIC1qaXOd1q1hmL7c66N-Mp4LXuQIuBZGM0dPIbwmyWcJAXbhIIZ8hNBWvar54c_j=w480-h960-rw",
     "title": "Notion: Notes, Docs, Tasks",
     "companyName": "Notion Labs",
     "description": "One workspace for your notes, tasks, wikis, and databases. Your all-in-one productivity tool.",
@@ -181,7 +182,7 @@
   },
   {
     "id": 11,
-    "image": "/images/todoist.jpg",
+    "image": "https://play-lh.googleusercontent.com/GK0SwEBVqlFBpRkPjY6y_1go6E6xZzAN0Ivzfgbuf28J4TTOoOsgWnqR4oJ_RhIhsg=w480-h960-rw",
     "title": "Todoist: To-Do List & Tasks",
     "companyName": "Doist Inc",
     "description": "Organize your work and life with Todoist. The world's favorite task manager and to-do list app.",
@@ -199,7 +200,7 @@
   },
   {
     "id": 12,
-    "image": "/images/evernote.jpg",
+    "image": "https://play-lh.googleusercontent.com/dVQlfnQ_Fp-wNfKv2eI9XxbLymV6oGW_0ywIw3pxhYyKhjC0Lk8y6Ru_-sUc1fq2akADzAN7QWn8nPvcw6Ck=w480-h960-rw",
     "title": "Evernote: Note Taking App",
     "companyName": "Evernote Corporation",
     "description": "Capture ideas, organize your work, and get things done with the ultimate note-taking app.",
@@ -217,7 +218,7 @@
   },
   {
     "id": 13,
-    "image": "/images/trello.jpg",
+    "image": "https://play-lh.googleusercontent.com/Tt-6ZaQDUAjfSNSeLz4XyYkPsEQfVVp0lBtwrnuyqubhCna0LKu5OZxKgegBJIrEhz8=w480-h960-rw",
     "title": "Trello: Organize Anything",
     "companyName": "Atlassian",
     "description": "Trello helps you collaborate and organize anything with anyone. Simple, flexible, and powerful.",
@@ -235,7 +236,7 @@
   },
   {
     "id": 14,
-    "image": "/images/anki.jpg",
+    "image": "https://play-lh.googleusercontent.com/4aLlAwUKGg5Keo8zz-pPI1QS9KnjSsa3vKX2NINqq5Fv1jfPK3bl6ghLaZ371OcH9A=w480-h960-rw",
     "title": "AnkiDroid Flashcards",
     "companyName": "AnkiDroid Community",
     "description": "Memorize anything with AnkiDroid! Powerful flashcard app with spaced repetition.",
@@ -253,7 +254,7 @@
   },
   {
     "id": 15,
-    "image": "/images/ticktick.jpg",
+    "image": "https://play-lh.googleusercontent.com/JkYolPNuRAlrXEI9vlk-XOid3VFJ0IPjDj2eM_xrriuE3Zu8IX9cuMkI7JOTw1upNxbW=w480-h960-rw",
     "title": "TickTick: To Do List & Tasks",
     "companyName": "TickTick Team",
     "description": "Your all-in-one to-do list, task manager, and calendar app to get things done.",
@@ -271,7 +272,7 @@
   },
   {
     "id": 16,
-    "image": "/images/sleeptown.jpg",
+    "image": "https://play-lh.googleusercontent.com/Q4QKI-tnjqdukBszG4fG5DsCwFnaWM2YFA4QCbUUzkNH5sdmpnrUFYIcax2qZnYMLls=w480-h960-rw",
     "title": "SleepTown - Sleep Tracker",
     "companyName": "SleepTown Inc",
     "description": "Build healthy sleep habits and wake up early by building your dream city while you sleep.",
@@ -289,7 +290,7 @@
   },
   {
     "id": 17,
-    "image": "/images/myfitnesspal.jpg",
+    "image": "http://play-lh.googleusercontent.com/DtR_W1lA1tKsbrr2DUo3TLNzqi9qRyxPqDuCyJeGLU6OMJKqg7CEqs45btRqvDFNDI3Y=w480-h960-rw",
     "title": "MyFitnessPal: Calorie Counter",
     "companyName": "MyFitnessPal Inc",
     "description": "Track calories, lose weight, and build healthy habits with the world's best calorie counter.",
@@ -307,7 +308,7 @@
   },
   {
     "id": 18,
-    "image": "/images/headspace.jpg",
+    "image": "https://play-lh.googleusercontent.com/XZCX4gp02jZVU53UO8j_tkc3u_i5kb3hlsUknNNCDRe1CZWuKV2f_7KWHqaqxbsSXuDa=w480-h960-rw",
     "title": "Headspace: Meditation & Sleep",
     "companyName": "Headspace Inc",
     "description": "Find peace in a hectic world with guided meditations, sleep sounds, and mindfulness exercises.",
@@ -325,7 +326,7 @@
   },
   {
     "id": 19,
-    "image": "/images/duolingo.jpg",
+    "image": "https://play-lh.googleusercontent.com/tw_coGKgk1K_zO-Ypf9zBKV1s-KT3dYN1MIUxIqtnbfmON5x_YmuoAr31gE4oSfJHNtA-aStTd-qe9R8S6NVyA=w480-h960-rw",
     "title": "Duolingo: Language Learning",
     "companyName": "Duolingo Inc",
     "description": "Learn Spanish, French, German, and more languages for free with fun, bite-sized lessons.",
@@ -343,7 +344,7 @@
   },
   {
     "id": 20,
-    "image": "/images/calm.jpg",
+    "image": "https://play-lh.googleusercontent.com/S76GphUu2pZa249td2Bb4XAhLcPRrFdL1zp_5qU1ouukvRq9r0-8jJ-CruaTtdT6g84=w480-h960-rw",
     "title": "Calm: Sleep & Meditation",
     "companyName": "Calm.com Inc",
     "description": "Sleep better, reduce stress, and live a happier life with Calm, the #1 app for meditation.",

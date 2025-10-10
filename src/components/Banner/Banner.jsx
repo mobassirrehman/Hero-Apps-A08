@@ -4,10 +4,10 @@ import bannerImg from '../../assets/hero.png';
 const Banner = () => {
     return (
 <section>
-<div className="hero">
+<div className="hero bg-[#f0ecec]">
   <div className="hero-content text-center py-12 md:py-16">
     <div className="">
-      <h1 className="text-5xl font-bold">We Build <br />
+      <h1 className="text-5xl text-gray-700 font-bold">We Build <br />
       <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2]'>Productive</span> Apps</h1>
       <p className="text-gray-600 text-base md:text-lg py-8">
       At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.<span className="hidden lg:inline"><br /></span> Our goal is to turn your ideas into digital experiences that truly make an impact.
@@ -29,7 +29,7 @@ const Banner = () => {
     </div>
   </div>
 </div>
-  <div className="flex-1 flex justify-center">
+  <div className="flex-1 flex justify-center bg-[#f0ecec]">
   <img 
       src={bannerImg} 
       alt="" 

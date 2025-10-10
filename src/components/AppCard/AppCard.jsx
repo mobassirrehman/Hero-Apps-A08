@@ -8,9 +8,9 @@ const AppCard = ({app}) => {
 
         return (
             <Link to={`/app/${id}`}>
-            <div className='card bg-base-100 shadow-sm hover:shadow-lg transition cursor-pointer'>
-                <figure className='bg-gray-200 p-4'>
-                    <img src={image} alt="" className='w-full h-48 object-cover rounded-lg' />
+            <div className='card bg-base-100 shadow-sm hover:shadow-lg transition-shadow h-full'>
+                <figure className='aspect-square overflow-hidden'>
+                    <img src={image} alt="" className='w-full h-full object-cover hover:scale-105 transition-transform duration-300' />
                 </figure>
                 <div className='card-body p-4'>
                     <h3 className='text-md font-medium'>{title}</h3>

@@ -19,14 +19,36 @@ const AppDetails = () => {
         fetch('/appsData.json').then(res => res.json()).then(data => {
                 const singleApp = data.find(app => app.id === parseInt(id));
                 setApp(singleApp);
+
+                const storedApps = localStorage.getItem('installedApps');
+                if (storedApps) {
+                    const installedApps = JSON.parse(storedApps);
+                    const alreadyInstalled = installedApps.find(installed => installed.id === singleApp?.id);
+                    if (alreadyInstalled) {
+                        setIsInstalled(true);
+                    }
+                }
                 setLoading(false);
             });
     }, [id]);
 
     const handleInstall = () => {
-        setIsInstalled(true);
-        toast.success('App Installed Successfully!');
+        const storedApps = localStorage.getItem('installedApps');
+        let installedApps = storedApps ? JSON.parse(storedApps) : [];
+
+        const alreadyInstalled = installedApps.find(installedApp => installedApp.id === app.id);
+
+        if (alreadyInstalled) {
+            toast.error('App Already Installed!');
+            return;
+        }
+            installedApps.push(app);
+            localStorage.setItem('installedApps', JSON.stringify(installedApps));
+    
+            setIsInstalled(true);
+            toast.success('App Installed Successfully!');
     };
+
     if(loading) {
         return (
             <div className='flex justify-center items-center min-h-screen'>
@@ -64,15 +86,17 @@ const AppDetails = () => {
     return (
         <div className='bg-base-100 min-h-screen py-12'>
             <ToastContainer />
-            <div className='max-w-7xl mx-auto px-4'>
+            <div className='max-w-11/13 mx-auto px-4'>
                 <div className='bg-white rounded-lg shadow-sm p-6 mb-8'>
                     <div className='flex flex-col lg:flex-row gap-8'>
-                        <div className='flex-shrink-0'>
-                            <img src={image} alt={title} className='w-full lg:w-64 h-64 object-cover rounded-lg' />
+                        <div className='w-full lg:w-1/3 flex justify-center lg:justify-start'>
+                        <div className='w-full max-w-xs aspect-square'>
+                            <img src={image} alt={title} className='w-full max-w-sm mx-auto lg:w-64 h-64 object-cover rounded-lg' />
+                        </div>
                         </div>
 
                         <div className='flex-1'>
-                            <h1 className='text-3xl font-bold mb-2'>{title}</h1>
+                            <h1 className='text-3xl text-gray-900 font-bold mb-2'>{title}</h1>
                             <p className='text-gray-600 mb-6'>
                                 Developed by <span className='text-primary font-medium'>{companyName}</span>
                             </p>
@@ -83,7 +107,7 @@ const AppDetails = () => {
                                         <BiSolidDownload className='w-4 h-4 text-green-700' />
                                         <span className='text-gray-600'>Downloads</span>
                                     </div>
-                                    <h3 className='text-3xl font-bold'>{downloads}</h3>
+                                    <h3 className='text-3xl text-gray-900 font-bold'>{downloads}</h3>
                                 </div>
 
                                 <div className='text-center sm:text-left'>
@@ -91,7 +115,7 @@ const AppDetails = () => {
                                         <FaStar className='w-6 h-6  text-orange-400' />
                                         <span className='text-gray-600'>Average Ratings</span>
                                     </div>
-                                    <h3 className='text-3xl font-bold'>{ratingAvg}</h3>
+                                    <h3 className='text-3xl text-gray-900 font-bold'>{ratingAvg}</h3>
                                 </div>
 
                                 <div className='text-center sm:text-left'>
@@ -99,7 +123,7 @@ const AppDetails = () => {
                                     <SlLike className='text-purple-600 text-xl' /> 
                                         <span className='text-gray-600'>Total Reviews</span>
                                     </div>
-                                    <h3 className='text-3xl font-bold'>{reviews}</h3>
+                                    <h3 className='text-3xl text-gray-900 font-bold'>{reviews}</h3>
                                 </div>
                             </div>
 
@@ -115,7 +139,7 @@ const AppDetails = () => {
                 </div>
 
                 <div className='bg-white rounded-lg shadow-sm p-6 mb-8'>
-                    <h2 className='text-2xl font-bold mb-6'>Ratings</h2>
+                    <h2 className='text-gray-900 text-2xl font-bold mb-6'>Ratings</h2>
                     <ResponsiveContainer width='100%' height={300}>
                      <BarChart 
                        data={chartData}
@@ -129,7 +153,7 @@ const AppDetails = () => {
                </div>
 
                 <div className='bg-white rounded-lg shadow-sm p-6'>
-                    <h2 className='text-2xl font-bold mb-6'>Description</h2>
+                    <h2 className='text-2xl text-gray-900 font-bold mb-6'>Description</h2>
                     <p className='text-gray-600'>
                         {description}
                     </p>

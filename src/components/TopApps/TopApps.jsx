@@ -27,10 +27,10 @@ const TopApps = () => {
         )
     }
     return (
-       <section className='bg-base-300 py-10 md:py-14'>
+       <section className='bg-[#f0ecec] py-10 md:py-14'>
         <div className='max-w-11/13 mx-auto px-4'>
             <div className='text-center mb-8'>
-                <h2 className='text-3xl md:text-4xl font-bold mb-4'>Trending Apps</h2>
+                <h2 className='text-3xl md:text-4xl text-gray-700 font-bold mb-4'>Trending Apps</h2>
                 <p className='text-gray-500'>Explore All Trending Apps on the Market developed by us</p>
             </div>
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6'>
