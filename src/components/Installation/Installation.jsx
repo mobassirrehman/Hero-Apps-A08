@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { FaDownload, FaStar } from 'react-icons/fa';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { DNA } from 'react-loader-spinner';
 
 const Installation = () => {
     const [installedApps, setInstalledApps] = useState([]);
@@ -56,16 +57,24 @@ const Installation = () => {
         setInstalledApps(sortedApps);
     };
 
-    if (loading) {
-        return (
-            <div className='flex justify-center items-center min-h-screen'>
-                <span className='loading loading-ring loading-xl'></span>
-            </div>
-        );
-    }
+      if (loading){
+            return(
+                <div className='flex justify-center items-center py-15'>
+                    <DNA
+                    visible={true}
+                    height="80"
+                    width="80"
+                    ariaLabel="dna-loading"
+                    wrapperStyle={{}}
+                    wrapperClass="dna-wrapper"
+                    />
+    
+                </div>
+            )
+        }
 
     return (
-        <div className='bg-[#f0ecec] min-h-screen py-12'>
+        <div className='bg-[#fbf5fd] min-h-screen py-12'>
             <ToastContainer />
             <div className='max-w-7xl mx-auto px-4'>
                 <div className='text-center mb-10'>

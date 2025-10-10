@@ -8,7 +8,7 @@ const ErrorPage = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <main className='min-h-screen flex items-center justify-center'>
+            <main className='min-h-screen bg-[#fbf5fd] flex items-center justify-center'>
               <div className='text-center px-4'>
                 <div>
                     <img src={errorImg} alt="" />

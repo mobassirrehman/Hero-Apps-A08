@@ -1,10 +1,12 @@
 import React from 'react';
 import bannerImg from '../../assets/hero.png';
+import { FaGooglePlay } from "react-icons/fa";
+import { FaAppStoreIos } from "react-icons/fa";
 
 const Banner = () => {
     return (
 <section>
-<div className="hero bg-[#f0ecec]">
+<div className="hero bg-[#fbf5fd]">
   <div className="hero-content text-center py-12 md:py-16">
     <div className="">
       <h1 className="text-5xl text-gray-700 font-bold">We Build <br />
@@ -13,23 +15,26 @@ const Banner = () => {
       At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.<span className="hidden lg:inline"><br /></span> Our goal is to turn your ideas into digital experiences that truly make an impact.
       </p>
     <div className='flex justify-center gap-x-4'>
+      
     <a  href="https://play.google.com/store" 
         target="_blank" 
         rel="noopener noreferrer"
         className="btn btn-outline btn-primary gap-2">
+          <FaGooglePlay className='h-6 w-6' />
          Google Play
     </a>
     <a href="https://www.apple.com/app-store/" 
         target="_blank" 
         rel="noopener noreferrer"
         className="btn btn-outline btn-primary gap-2">
+        <FaAppStoreIos className='h-6 w-6' />
         App Store
     </a>
     </div>
     </div>
   </div>
 </div>
-  <div className="flex-1 flex justify-center bg-[#f0ecec]">
+  <div className="flex-1 flex justify-center bg-[#fbf5fd]">
   <img 
       src={bannerImg} 
       alt="" 

@@ -7,6 +7,7 @@ import { FaStar } from "react-icons/fa6";
 import { SlLike } from "react-icons/sl";
 import { Bar, BarChart, XAxis, YAxis, ResponsiveContainer } from 'recharts';
 import 'react-toastify/dist/ReactToastify.css';
+import { DNA } from 'react-loader-spinner';
 
 const AppDetails = () => {
     const { id } = useParams();
@@ -49,16 +50,24 @@ const AppDetails = () => {
             toast.success('App Installed Successfully!');
     };
 
-    if(loading) {
-        return (
-            <div className='flex justify-center items-center min-h-screen'>
-                <span className="loading loading-ring loading-xl"></span>
-            </div>
-        );
-    }
+      if (loading){
+            return(
+                <div className='flex justify-center items-center min-h-screen py-15'>
+                    <DNA
+                    visible={true}
+                    height="80"
+                    width="80"
+                    ariaLabel="dna-loading"
+                    wrapperStyle={{}}
+                    wrapperClass="dna-wrapper"
+                    />
+    
+                </div>
+            )
+        }
     if (!app) {
         return (
-            <div className='min-h-screen flex items-center justify-center bg-base-100'>
+            <div className='min-h-screen bg-[#fbf5fd] flex items-center justify-center'>
                 <div className='text-center px-4'>
                     <div className='flex justify-center mb-8'>
                         <img src={appNotFoundImg} alt='App Not Found' className='w-full max-w-md' />
@@ -84,7 +93,7 @@ const AppDetails = () => {
         count: rating.count
     }));
     return (
-        <div className='bg-base-100 min-h-screen py-12'>
+        <div className='bg-[#fbf5fd] min-h-screen py-12'>
             <ToastContainer />
             <div className='max-w-11/13 mx-auto px-4'>
                 <div className='bg-white rounded-lg shadow-sm p-6 mb-8'>
@@ -130,7 +139,7 @@ const AppDetails = () => {
                             <button 
                                 onClick={handleInstall}
                                 disabled={isInstalled}
-                                className={`btn ${isInstalled ? 'btn btn-success' : 'btn-primary'} text-white w-full sm:w-auto`}
+                                className={`btn ${isInstalled ? 'btn btn-success' : 'btn-primary'} text-gray-400 w-full sm:w-auto`}
                             >
                                 {isInstalled ? 'Installed' : `Install Now (${size} MB)`}
                             </button>

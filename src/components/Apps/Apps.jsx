@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import AppCard from '../AppCard/AppCard';
 import NoApp from '../../assets/App-Error.png'
 import { Link } from 'react-router';
-import { HashLoader } from "react-spinners";
+import { DNA } from 'react-loader-spinner';
 
 
 const Apps = () => {
@@ -21,7 +21,7 @@ const Apps = () => {
     const handleSearch = (e) => {
         const searchValue = e.target.value;
         setSearchText(searchValue);
-        
+
         const filtered = allApps.filter(app => 
             app.title.toLowerCase().includes(searchValue.toLowerCase())
         );
@@ -30,12 +30,20 @@ const Apps = () => {
     if (loading){
         return(
             <div className='flex justify-center items-center py-15'>
-               <HashLoader />
+                <DNA
+                visible={true}
+                height="80"
+                width="80"
+                ariaLabel="dna-loading"
+                wrapperStyle={{}}
+                wrapperClass="dna-wrapper"
+                />
+
             </div>
         )
     }
     return (
-        <div className='bg-base-100 min-h-screen py-12'>
+        <div className='bg-[#fbf5fd] min-h-screen py-12'>
             <div className='max-w-11/13 mx-auto px-4'>
                 <div className='text-center mb-10'>
                     <h2 className='text-3xl font-bold mb-4'>Our All Applications</h2>
