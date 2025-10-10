@@ -139,7 +139,7 @@ const AppDetails = () => {
                             <button 
                                 onClick={handleInstall}
                                 disabled={isInstalled}
-                                className={`btn ${isInstalled ? 'btn btn-success' : 'btn-primary'} text-gray-400 w-full sm:w-auto`}
+                                className={`btn ${isInstalled ? 'btn btn-success' : 'btn-primary'} text-white w-full sm:w-auto`}
                             >
                                 {isInstalled ? 'Installed' : `Install Now (${size} MB)`}
                             </button>

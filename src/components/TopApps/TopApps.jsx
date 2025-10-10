@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router';
 import AppCard from '../AppCard/AppCard';
+import { DNA } from 'react-loader-spinner';
 
 const TopApps = () => {
     const [apps, setApps] = useState([]);
@@ -22,7 +23,15 @@ const TopApps = () => {
     if (loading){
         return(
             <div className='flex justify-center items-center py-15'>
-                <span className="loading loading-ring loading-xl"></span>
+                <DNA
+                visible={true}
+                height="80"
+                width="80"
+                ariaLabel="dna-loading"
+                wrapperStyle={{}}
+                wrapperClass="dna-wrapper"
+                />
+
             </div>
         )
     }

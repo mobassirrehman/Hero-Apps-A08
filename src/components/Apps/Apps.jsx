@@ -11,6 +11,8 @@ const Apps = () => {
     const [searchText, setSearchText] = useState('');
     const [loading, setLoading] = useState(true);
 
+    const [searchLoading, setSearchLoading] = useState(false);
+
     useEffect(() => {
         fetch('/appsData.json').then(res => res.json()).then(data => {
                 setAllApps(data);
@@ -25,7 +27,12 @@ const Apps = () => {
         const filtered = allApps.filter(app => 
             app.title.toLowerCase().includes(searchValue.toLowerCase())
         );
+        setSearchLoading(true);
+        setTimeout(() => {
         setFilteredApps(filtered);
+        setSearchLoading(false);
+        },1000 );
+     
     };
     if (loading){
         return(
@@ -70,7 +77,19 @@ const Apps = () => {
                     </label>
                 </div>
 
-                {filteredApps.length > 0 ? (
+               {searchLoading ? (
+                <div className='flex justify-center items-center py-20'>
+             <DNA
+                 visible={true}
+                 height="80"
+                width="80"
+                ariaLabel="dna-loading"
+                wrapperStyle={{}}
+                wrapperClass="dna-wrapper"
+                colors={['#632EE3', '#9F62F2']}
+            />
+        </div>
+    ): filteredApps.length > 0 ? (
                     <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6'>
                         {
                             filteredApps.map(app => <AppCard key={app.id} app={app}></AppCard>)

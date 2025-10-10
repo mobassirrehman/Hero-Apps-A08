@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink } from "react-router";
+import { NavLink } from "react-router";
 import logoImg from '../../assets/logo.png'
 import { FaGithub } from "react-icons/fa";
 
@@ -60,12 +60,13 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1 gap-2">{links}</ul>
       </div>
       <div className="navbar-end">
-       <NavLink to="https://github.com/mobassirrehman">
-       <a className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] btn-sm md:btn-md text-white ml-2 text-xs md:text-sm">
-       <FaGithub className="w-5 h-5" />
-           Contribute
-        </a>  
-       </NavLink> 
+      <a href="https://github.com/mobassirrehman"
+         target="_blank"
+         rel="noopener noreferrer"
+         className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] btn-sm md:btn-md text-white ml-2 text-xs md:text-sm gap-2">
+          <FaGithub className="w-5 h-5" />
+          Contribute
+      </a>
       </div>
     </div>
   );
