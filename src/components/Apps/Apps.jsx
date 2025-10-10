@@ -21,6 +21,7 @@ const Apps = () => {
     const handleSearch = (e) => {
         const searchValue = e.target.value;
         setSearchText(searchValue);
+        
         const filtered = allApps.filter(app => 
             app.title.toLowerCase().includes(searchValue.toLowerCase())
         );

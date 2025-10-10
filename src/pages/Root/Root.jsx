@@ -11,7 +11,6 @@ const Root = () => {
       <Navbar></Navbar>
       <main className="flex-1">
       <Outlet></Outlet>
-    
       <Footer></Footer>
       <ToastContainer></ToastContainer>
       </main>

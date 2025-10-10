@@ -6,13 +6,19 @@ const Navbar = () => {
   const links = (
     <>
       <li>
-        <NavLink to="/">Home</NavLink>
+        <NavLink to="/" className={({ isActive }) => 
+        isActive ? "text-primary font-bold" : "" 
+        }>Home</NavLink>
       </li>
       <li>
-        <NavLink to="/apps">Apps</NavLink>
+        <NavLink to="/apps" className={({ isActive }) => 
+        isActive ? "text-primary font-bold" : ""
+        }>Apps</NavLink>
       </li>
       <li>
-        <NavLink to="/installation">Installation</NavLink>
+        <NavLink to="/installation" className={({ isActive }) => 
+        isActive ? "text-primary font-bold" : ""
+        }>Installation</NavLink>
       </li>
     </>
   );
